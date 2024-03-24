@@ -61,6 +61,7 @@ function App() {
         {count7} votos en contra
       </button>
     </div>
+    <h1 className='text-yellow-600 font-extrabold'>Hello world!</h1>
     </div>
     </>
   )
