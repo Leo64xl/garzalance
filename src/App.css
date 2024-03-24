@@ -1,0 +1,198 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.boton2 button {
+  background-color: #072b0a; /* Color de fondo */
+  color: rgba(255, 255, 255, 0.89); /* Color del texto */
+  padding: 12px 47px; /* Aumento del padding para hacer el botón más ancho */
+  border: none; /* Sin borde */
+  border-radius: 30px; /* Bordes redondeados */
+  border-color: #072b0a;
+  cursor: pointer; /* Cursor de ratón */
+  font-size: 16px; /* Tamaño de la fuente */
+  font-weight: bold; /* Peso de la fuente */
+  transition: background-color 0.3s; /* Transición suave del color de fondo */
+  margin-top: 10px; /* Margen superior */
+}
+
+.boton2 button:hover {
+  background-color: #041105; /* Cambia el color de fondo al pasar el ratón */
+}
+
+
+.fran-guapo {
+  text-align: center; /* Centra el contenido horizontalmente */
+  margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+}
+
+.fran-title {
+  font-size: 26px; /* Tamaño de fuente */
+  color: #ffffffe7; /* Color del texto */
+  margin-bottom: 10px; /* Espacio entre el título y la imagen */
+  font-weight: bold; /* Peso de la fuente en negrita */
+
+}
+
+.fran-image {
+  width: 200px; /* Ancho de la imagen */
+  height: 300px; /* Altura de la imagen */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+  margin: 20px auto; /* Margen superior e inferior de 20px y centrado horizontalmente */
+  border: 9px solid #012401d8; /* Borde de color, ajustalo a px */
+}
+
+.texto-fran {
+  font-size: 21px; /* Tamaño de la fuente */
+  color: #ffffffd8; /* Color del texto */
+  font-weight: bold; /* Peso de la fuente en negrita */
+  margin-top: 10px; /* Margen superior */
+}
+
+.boton3 button {
+  background-color: #330a0a; /* Color de fondo */
+  color: rgba(255, 255, 255, 0.89);
+  padding: 12px 39px; /* Aumento del padding para hacer el botón más ancho */
+  border: none; /* Sin borde */
+  border-radius: 30px; /* Bordes redondeados */
+  border-color: #330a0a;
+  cursor: pointer; /* Cursor de ratón */
+  font-size: 16px; /* Tamaño de la fuente */
+  font-weight: bold; /* Peso de la fuente */
+  transition: background-color 0.3s; /* Transición suave del color de fondo */
+  margin-top: 10px; /* Margen superior */
+}
+
+.boton3 button:hover {
+  background-color: #110303; /* Cambia el color de fondo al pasar el ratón */
+}
+
+.malo-malin {
+  width: 200px; /* Ancho de la imagen */
+  height: 300px; /* Altura de la imagen */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+  margin: 20px auto; /* Margen superior e inferior de 20px y centrado horizontalmente */
+  border: 9px solid #02012ed8; /* Borde de color, ajustalo a px */
+}
+
+.texto-malo {
+  font-size: 26px; /* Tamaño de fuente */
+  color: #ffffffe7; /* Color del texto */
+  margin-bottom: 10px; /* Espacio entre el título y la imagen */
+  font-weight: bold; /* Peso de la fuente en negrita */
+}
+
+.Pregunta-malo {
+  font-size: 21px; /* Tamaño de la fuente */
+  color: #ffffffd8; /* Color del texto */
+  font-weight: bold; /* Peso de la fuente en negrita */
+  margin-top: 10px; /* Margen superior */
+}
+
+.boton4 button {
+    background-color: #02012ed8; /* Color de fondo */
+    color: rgba(255, 255, 255, 0.89); /* Color del texto */
+    padding: 12px 47px; /* Aumento del padding para hacer el botón más ancho */
+    border: none; /* Sin borde */
+    border-radius: 30px; /* Bordes redondeados */
+    border-color: #072b0a;
+    cursor: pointer; /* Cursor de ratón */
+    font-size: 16px; /* Tamaño de la fuente */
+    font-weight: bold; /* Peso de la fuente */
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+    margin-top: 10px; /* Margen superior */
+}
+
+.boton4 button:hover {
+  background-color: #03021ad8; /* Cambia el color de fondo al pasar el ratón */
+}
+
+.boton5 button {
+  background-color: #330a0a; /* Color de fondo */
+  color: rgba(255, 255, 255, 0.89);
+  padding: 12px 39px; /* Aumento del padding para hacer el botón más ancho */
+  border: none; /* Sin borde */
+  border-radius: 30px; /* Bordes redondeados */
+  border-color: #330a0a;
+  cursor: pointer; /* Cursor de ratón */
+  font-size: 16px; /* Tamaño de la fuente */
+  font-weight: bold; /* Peso de la fuente */
+  transition: background-color 0.3s; /* Transición suave del color de fondo */
+  margin-top: 10px; /* Margen superior */
+}
+
+.boton5 button:hover {
+  background-color: #110303; /* Cambia el color de fondo al pasar el ratón */
+}
+
+.Isra-Titulo {
+  font-size: 26px; /* Tamaño de fuente */
+  color: #ffffffe7; /* Color del texto */
+  margin-bottom: 10px; /* Espacio entre el título y la imagen */
+  font-weight: bold; /* Peso de la fuente en negrita */
+}
+
+.israLv {
+  width: 200px; /* Ancho de la imagen */
+  height: 300px; /* Altura de la imagen */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+  margin: 20px auto; /* Margen superior e inferior de 20px y centrado horizontalmente */
+  border: 9px solid #f56200; /* Borde de color, ajustalo a px */
+}
+
+.boton6 button {
+  background-color: #f56200; /* Color de fondo */
+  color: rgba(255, 255, 255, 0.89);
+  padding: 12px 39px; /* Aumento del padding para hacer el botón más ancho */
+  border: none; /* Sin borde */
+  border-radius: 30px; /* Bordes redondeados */
+  border-color: #f56200;
+  cursor: pointer; /* Cursor de ratón */
+  font-size: 16px; /* Tamaño de la fuente */
+  font-weight: bold; /* Peso de la fuente */
+  transition: background-color 0.3s; /* Transición suave del color de fondo */
+  margin-top: 10px; /* Margen superior */
+}
+
+.boton6 button:hover {
+  background-color: #8d3800; /* Cambia el color de fondo al pasar el ratón */
+}
+
+.boton7 button {
+  background-color: #330a0a; /* Color de fondo */
+  color: rgba(255, 255, 255, 0.89);
+  padding: 12px 33px; /* Aumento del padding para hacer el botón más ancho */
+  border: none; /* Sin borde */
+  border-radius: 30px; /* Bordes redondeados */
+  border-color: #330a0a;
+  cursor: pointer; /* Cursor de ratón */
+  font-size: 16px; /* Tamaño de la fuente */
+  font-weight: bold; /* Peso de la fuente */
+  transition: background-color 0.3s; /* Transición suave del color de fondo */
+  margin-top: 10px; /* Margen superior */
+}
+
+.boton7 button:hover {
+  background-color: #110303; /* Cambia el color de fondo al pasar el ratón */
+}
+
+.Pregunta-Isra {
+  font-size: 21px; /* Tamaño de la fuente */
+  color: #ffffffd8; /* Color del texto */
+  font-weight: bold; /* Peso de la fuente en negrita */
+  margin-top: 10px; /* Margen superior */
+}
