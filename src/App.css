@@ -1,16 +1,37 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  padding: 0rem;
+}
+
+#elemento-a-mover {
+  text-align: auto; /* O cualquier otra alineación que desees */
 }
 
 .card {
-  padding: 2em;
+  padding: 2em; /* ayuda a poner espacio entre letras segun sea asignadas */
 }
 
 .read-the-docs {
   color: #888;
+}
+
+.boton1 button {
+  background-color: #072b0a; /* Color de fondo */
+  color: rgba(255, 255, 255, 0.89); /* Color del texto */
+  padding: 12px 47px; /* Aumento del padding para hacer el botón más ancho */
+  border: none; /* Sin borde */
+  border-radius: 30px; /* Bordes redondeados */
+  border-color: #072b0a;
+  cursor: pointer; /* Cursor de ratón */
+  font-size: 16px; /* Tamaño de la fuente */
+  font-weight: bold; /* Peso de la fuente */
+  transition: background-color 0.3s; /* Transición suave del color de fondo */
+  margin-top: 10px; /* Margen superior */
+}
+
+.boton1 button:hover {
+  background-color: #041105; /* Cambia el color de fondo al pasar el ratón */
 }
 
 .boton2 button {
@@ -196,3 +217,18 @@
   font-weight: bold; /* Peso de la fuente en negrita */
   margin-top: 10px; /* Margen superior */
 }
+
+.contenedor {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Alineación personalizada para elementos específicos */
+.fran-guapo, .boton2, .boton3, .boton4, .boton5, .boton6 {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
