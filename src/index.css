@@ -17,5 +17,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.active {
+  color: cadetblue;
+}
 
 
