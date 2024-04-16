@@ -25,9 +25,9 @@
 }
 
 .secciones_nav {
-  background-color: #B84357; /* Color de fondo rojo suave para la barra de navegación */
-  color: white; /* Color de texto para los elementos de la barra de navegación */
-  padding: 10px 0; /* Espaciado interno superior e inferior */
+  background-color: #ddac7ee8; /* Color de fondo rojo suave para la barra de navegación */
+  color: #000000d0; /* Color de texto para los elementos de la barra de navegación */
+  padding: 1px 0; /* Espaciado interno superior e inferior */
   text-align: center; /* Centra el texto */ 
 }
 
@@ -35,14 +35,28 @@
   list-style-type: none; /* Elimina los puntos de lista */
   display: flex; /* Utiliza Flexbox para organizar los elementos horizontalmente */
   justify-content: space-around; /* Distribuye el espacio entre los elementos */
-  padding: 0;
+  padding: 1px;
+  text-align: center;
 }
 
 .secciones_nav nav li {
-  padding: 1%; /* Ajusta el espacio interior de cada elemento de lista */
+  padding: 1.1%; /* Ajusta el espacio interior de cada elemento de lista */
   transition: 500ms; /* Transición para efectos de hover */
 }
 
 .secciones_nav nav li:hover {
-  color: #e4cccc; /* Cambia el color del texto al pasar el mouse sobre los elementos */
+  color: #000000; /* Cambia el color del texto al pasar el mouse sobre los elementos */
+}
+
+.title {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+  padding: 2%;
+  color: rgba(255, 255, 255, 0.945);
+}
+
+.fondo-title {
+  background-color: #460d0d;
 }

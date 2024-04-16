@@ -2,7 +2,9 @@ import React from 'react'
 
 const Default = () => {
   return (
-    <div>Default</div>
+    <div>
+      <h1>URL NO ENCONTRADA</h1>
+    </div>
   )
 }
 

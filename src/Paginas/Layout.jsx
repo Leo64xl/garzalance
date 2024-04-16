@@ -6,16 +6,16 @@ const Layout = () => {
     <nav>
         <ul>
             <li>
-                <NavLink end to="/home">Seccion de prueba</NavLink>
+                <NavLink className="seccion_prueba" end to="/home">Seccion de prueba</NavLink>
             </li>
             <li>
-                <NavLink to="/about">Seccion 1</NavLink>
+                <NavLink className="seccion_1" to="/about">Seccion 1</NavLink>
             </li>
             <li>
-                <NavLink to="/dashboard">Seccion 2</NavLink>
+                <NavLink className="seccion_2" to="/dashboard">Seccion 2</NavLink>
             </li>
             <li>
-                <NavLink to="/products">Chamacos</NavLink>
+                <NavLink className="seccion_chamacos" to="/products">Chamacos</NavLink>
             </li>
         </ul>
     </nav>

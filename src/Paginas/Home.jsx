@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../Home.css';
+import '../Diseños_css/Home.css';
 
 
 const Home = () => {
@@ -15,7 +15,7 @@ const Home = () => {
     <div className="home-container">
 
         <div>
-          <h1 className="text-4xl text-white font-bold">"Proyecto React sección de prueba"</h1>
+          <h1 className="text-4xl text-white font-bold">Proyecto React, sección de prueba 🧐</h1>
         </div>            
       
         <div className="fran-guapo">
@@ -77,6 +77,7 @@ const Home = () => {
 
           <h1 className='text-yellow-600 font-extrabold text-'>Hello world!</h1>
         </div>
+        <div className="footer">Garzalance proyecto integrador</div>
       </div>
   )
 }
