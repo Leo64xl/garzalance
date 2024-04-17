@@ -1,9 +1,33 @@
-import { Outlet, NavLink } from 'react-router-dom'
+import { Outlet, NavLink, useLocation, useNavigate } from 'react-router-dom'
 
 const Layout = () => {
+
+  const {state} = useLocation();
+  const navigate = useNavigate()
+
+  console.log(state)
+
+  const onLogout = () => {
+    navigate('/dashboard', {
+      replace:true,
+    })
+  }
+
   return (
-    <div className="secciones_nav">
-    <nav>
+    <div>    
+
+    {
+      state?.logged ? (
+       <div className="user">
+         <span className="username">{state?.name}</span>
+         <button className="btn-logout" onClick={onLogout}>
+         Cerrar sesión
+         </button>
+       </div>
+
+      ) : (
+       
+        <nav className="secciones_nav">
         <ul>
             <li>
                  <NavLink className="seccion_prueba" to="/home">Home</NavLink>
@@ -16,6 +40,10 @@ const Layout = () => {
             </li>
         </ul>
     </nav>
+      
+      )
+    }   
+    
      
    <hr />   
    

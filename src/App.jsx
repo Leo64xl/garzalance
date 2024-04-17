@@ -5,6 +5,9 @@ import Home from "./pages/Home";
 import Default from "./pages/Default";
 import Dashboard from "./pages/Dashboard";
 import Register from './pages/Register';
+import MenuPrincipal from './pages/MenuPrincipal';
+import Seccion_1 from './pages/Seccion_1';
+import PrivateRoute from './router/PrivateRoute';
 
 
 function App () {
@@ -13,10 +16,20 @@ function App () {
       <div className="fondo-title"><h1 className="title">Garzalance</h1></div> 
       <Routes>
             <Route path= "/" element={<Layout />}> 
-             <Route index element={<Home />} />           
+             <Route index element={<Home />} />    
              <Route path="/register" element={<Register />} />
              <Route path="/home" element={<Home />} />
-             <Route path="/dashboard" element={<Dashboard />} />                               
+             <Route path="/dashboard" element={<Dashboard />} />
+              <Route path="/seccion_1" element={<Seccion_1 />} />
+              <Route path="/register" element={<Register />} />
+              <Route 
+              path="/MenuPrincipal" 
+              element={
+                <PrivateRoute>
+                   <MenuPrincipal />
+                </PrivateRoute>
+              } 
+              />
              <Route path="*" element={<Default />} />           
            </Route>
       </Routes>          

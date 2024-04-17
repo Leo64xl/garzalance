@@ -5,6 +5,13 @@
   padding: 0rem;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
 #elemento-a-mover {
   text-align: auto; /* O cualquier otra alineación que desees */
 }
@@ -73,3 +80,4 @@
   font-weight: bold; 
   padding: 30px;
 }
+
