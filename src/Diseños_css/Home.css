@@ -1,10 +1,15 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    max-width: 100%;
+    margin: 0%;
+    margin-bottom: 40px;
+    max-height: 300px;
+    margin: 0;
   }
   
   .home-container {
-      background-color: #FAFAFA; /* Color de fondo para la sección de Home */
+      background-color: #fafafaea; /* Color de fondo para la sección de Home */
       padding: 30px; /* Espaciado interno */
     }
     
@@ -25,6 +30,7 @@ body {
     font-weight: bold;
     padding: 10px;
     color: #000000d0;
+    text-align: center;
   }
   
   .seccion_1{
@@ -33,6 +39,7 @@ body {
     font-weight: bold;
     margin-top: 10px;
     color: #000000d0;
+    text-align: center;
   }
   
   .seccion_2{
@@ -267,13 +274,5 @@ body {
       margin-right: auto;
       text-align: center;
     }
-
-.footer {
-  background-color: #460d0d;
-  font-size: 33px;
-  color: rgba(255, 255, 255, 0.945);
-  padding: 2%;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-weight: bold;  
-}    
+ 
     

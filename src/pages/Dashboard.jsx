@@ -1,8 +1,13 @@
 import React from 'react'
+import '../Diseños_css/Dashboard.css';
 
 const Dashboard = () => {
   return (
-    <div>Seccion 2</div>
+    <div>
+
+      <div>Login</div>
+
+    </div>
   )
 }
 
