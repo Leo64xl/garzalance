@@ -6,7 +6,7 @@ const PrivateRoute = ({children}) => {
     const {state} = useLocation()
   
     return (
-    state?.logged ? children : <Navigate to='/seccion_1'  />
+    state?.logged ? children : <Navigate to='/home'  />
   )
 }
 

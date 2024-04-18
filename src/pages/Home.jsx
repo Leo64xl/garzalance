@@ -28,6 +28,7 @@ const Home = () => {
         <div>
           <h1 className='text-yellow-600 font-extrabold text-'>Hello world!</h1>
         </div>
+
       </div>
   )
 }

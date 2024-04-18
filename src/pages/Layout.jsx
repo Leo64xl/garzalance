@@ -49,7 +49,7 @@ const Layout = () => {
    
    <Outlet />
    
- <footer className="fondob"></footer>
+   <footer className="fondob"></footer>
   
   </div>
   

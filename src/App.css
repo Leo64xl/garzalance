@@ -21,7 +21,7 @@
 }
 
 .read-the-docs {
-  color: #888;
+  color: #FAFAFA;
 }
 
 .secciones_nav ul {
@@ -32,8 +32,8 @@
 }
 
 .secciones_nav {
-  background-color: #323232; /* Color de fondo rojo suave para la barra de navegación */
-  color: #14FFEC; /* Color de texto para los elementos de la barra de navegación */
+  background-color: #AED6F1; /* Color de fondo rojo suave para la barra de navegación */
+  color: #fdffff; /* Color de texto para los elementos de la barra de navegación */
   padding: 1px 0; /* Espaciado interno superior e inferior */
   text-align: center; /* Centra el texto */ 
 }
@@ -52,7 +52,7 @@
 }
 
 .secciones_nav nav li:hover {
-  color: #000000; /* Cambia el color del texto al pasar el mouse sobre los elementos */
+  color: #ffffff; /* Cambia el color del texto al pasar el mouse sobre los elementos */
 }
 
 .title {
@@ -65,14 +65,14 @@
 }
 
 .fondo-title {
-  background-color: #2c095a;
+  background-color: #1A5276;
 }
 
 .fondob {
   position: absolute;/* Fija el footer al final de la página */
   width: 100%; /* Asegura que el footer tenga el ancho completo de la página */
   margin: 0; /* Elimina cualquier margen */
-  background-color: #1E0342; /* Color de fondo */  
+  background-color: #1A5276; /* Color de fondo */  
   font-size: 28px;
   display: flex;
   color: rgba(255, 255, 255, 0.945);

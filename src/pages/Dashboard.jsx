@@ -29,52 +29,52 @@ const Dashboard = () => {
 
    }
 
-  return (
+   return (
     <div className="wrapper">
-     <form onSubmit={onLogin}> 
-      <h1>Iniciar sesión</h1>
-
-      <div className='input-group'>
-       <input 
-         type='text'
-         name='name' 
-         id='name' 
-         value={name} 
-         onChange={onInputChange} 
-         required 
-         autoComplete='off'        
-       />
-       <label htmlFor='name'>Nombre:</label>
-      </div>
-
-      <div className='input-group'>
-       <input 
-         type='email'
-         name='email' 
-         id='email' 
-         value={email} 
-         onChange={onInputChange} 
-         required 
-         autoComplete='off'        
-       />
-       <label htmlFor='email'>Email:</label>
-      </div>
-      
-      <div className='input-group'>
-       <input 
-         type='password'
-         name='password' 
-         id='password' 
-         value={password} 
-         onChange={onInputChange} 
-         required 
-         autoComplete='off'        
-       />
-       <label htmlFor='password'>Contraseña:</label>
-      </div>
-       
-       <button>Entrar</button>
-     </form>
+      <form onSubmit={onLogin}> 
+        <h1>Iniciar sesión</h1>
+  
+        <div className='input-group'>
+          <label htmlFor='name'>Nombre:</label>
+          <input 
+            type='text'
+            name='name' 
+            id='name' 
+            value={name} 
+            onChange={onInputChange} 
+            required 
+            autoComplete='off'        
+          />
+        </div>
+  
+        <div className='input-group'>
+          <label htmlFor='email'>Email:</label>
+          <input 
+            type='email'
+            name='email' 
+            id='email' 
+            value={email} 
+            onChange={onInputChange} 
+            required 
+            autoComplete='off'        
+          />
+        </div>
+        
+        <div className='input-group'>
+          <label htmlFor='password'>Contraseña:</label>
+          <input 
+            type='password'
+            name='password' 
+            id='password' 
+            value={password} 
+            onChange={onInputChange} 
+            required 
+            autoComplete='off'        
+          />
+        </div>
+         
+        <button>Entrar</button>
+      </form>
     </div>
   )
 }
