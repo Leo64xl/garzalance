@@ -32,10 +32,10 @@ const Register = () => {
   return (
   <div className="wrapper">
     <form onSubmit={onRegister}> 
-      <h1 className='register'>Registrarse</h1>
+      <h1 className='register'>Sign Up</h1>
 
       <div className='input-group'>
-        <label htmlFor='name'>Nombre:</label>
+        <label htmlFor='name'>Full name:</label>
         <input 
           type='text'
           name='name' 
@@ -43,12 +43,14 @@ const Register = () => {
           value={name} 
           onChange={onInputChange} 
           required 
-          autoComplete='off'        
+          autoComplete='off' 
+          placeholder='Enter your full name' // Añade esto
+          className="appearance-none border-none w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"       
         />
       </div>
 
       <div className='input-group'>
-        <label htmlFor='name'>Carrera:</label>
+        <label htmlFor='name'>Career:</label>
         <input 
           type='text'
           name='carrera' 
@@ -56,12 +58,14 @@ const Register = () => {
           value={carrera} 
           onChange={onInputChange} 
           required 
-          autoComplete='off'        
+          autoComplete='off' 
+          placeholder='Enter your college career' // Añade esto
+          className="appearance-none border-none w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"       
         />
       </div>
 
       <div className='input-group'>
-        <label htmlFor='email'>Email:</label>
+        <label htmlFor='email'>E-Mail:</label>
         <input 
           type='email'
           name='email' 
@@ -69,12 +73,14 @@ const Register = () => {
           value={email} 
           onChange={onInputChange} 
           required 
-          autoComplete='off'        
+          autoComplete='off'
+          placeholder='Enter your email address' // Añade esto
+          className="appearance-none border-none w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"        
         />
       </div>
       
       <div className='input-group'>
-        <label htmlFor='password'>Contraseña:</label>
+        <label htmlFor='password'>Password:</label>
         <input 
           type='password'
           name='password' 
@@ -83,10 +89,12 @@ const Register = () => {
           onChange={onInputChange} 
           required 
           autoComplete='off'        
+          placeholder='*******' // Añade esto
+          className="appearance-none border-none w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
         />
       </div>
        
-      <button>Registrarse</button>
+      <button className="btnR">Sign Up</button>
     </form>
   </div>
 )

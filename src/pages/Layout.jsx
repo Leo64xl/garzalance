@@ -33,23 +33,21 @@ const Layout = () => {
                  <NavLink className="seccion_prueba" to="/home">Home</NavLink>
             </li>           
             <li>
-                <NavLink className="seccion_2" to="/dashboard">Iniciar sesion</NavLink>
+                <NavLink className="seccion_2" to="/dashboard">Sign In</NavLink>
             </li>
             <li>
-                <NavLink className="seccion_chamacos" to="/register">Registrarse</NavLink>
+                <NavLink className="seccion_chamacos" to="/register">Sign Up</NavLink>
             </li>
         </ul>
     </nav>
       
       )
-    }   
-    
-     
-   <hr />   
+    }         
+  
    
    <Outlet />
    
-   <footer className="fondob"></footer>
+   <footer className="fondob">© 2024 Independent Software Developers, Inc. all rights reserved</footer>
   
   </div>
   

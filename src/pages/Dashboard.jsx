@@ -32,10 +32,10 @@ const Dashboard = () => {
    return (
     <div className="wrapper">
       <form onSubmit={onLogin}> 
-        <h1>Iniciar sesión</h1>
+        <h1 className="iniciarS">Sign In</h1>
   
         <div className='input-group'>
-          <label htmlFor='name'>Nombre:</label>
+          <label htmlFor='name'>Full name:</label>
           <input 
             type='text'
             name='name' 
@@ -43,12 +43,14 @@ const Dashboard = () => {
             value={name} 
             onChange={onInputChange} 
             required 
-            autoComplete='off'        
+            autoComplete='off' 
+            placeholder='Enter your full name' // Añade esto
+            className="appearance-none border-none w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"    
           />
         </div>
   
         <div className='input-group'>
-          <label htmlFor='email'>Email:</label>
+          <label htmlFor='email'>E-Mail:</label>
           <input 
             type='email'
             name='email' 
@@ -56,12 +58,14 @@ const Dashboard = () => {
             value={email} 
             onChange={onInputChange} 
             required 
-            autoComplete='off'        
+            autoComplete='off'     
+            placeholder='Enter your email address' // Añade esto
+            className="appearance-none border-none w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"   
           />
         </div>
         
         <div className='input-group'>
-          <label htmlFor='password'>Contraseña:</label>
+          <label htmlFor='password'>Password:</label>
           <input 
             type='password'
             name='password' 
@@ -69,11 +73,13 @@ const Dashboard = () => {
             value={password} 
             onChange={onInputChange} 
             required 
-            autoComplete='off'        
+            autoComplete='off'   
+            placeholder='*******' // Añade esto
+            className="appearance-none border-none w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"     
           />
         </div>
          
-        <button>Entrar</button>
+        <button className="btnS">Sign In</button>
       </form>
     </div>
   )
