@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import '../Diseños_css/Home.css';
+import '../Diseños_css/Inicio.css';
 
-const Home = () => {
+const Inicio = () => {
 
   const [count2, setCount2] = useState(0);
     
@@ -33,4 +33,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Inicio

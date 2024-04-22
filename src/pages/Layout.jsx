@@ -8,7 +8,7 @@ const Layout = () => {
   console.log(state)
 
   const onLogout = () => {
-    navigate('/dashboard', {
+    navigate('/login-usuario', {
       replace:true,
     })
   }
@@ -30,13 +30,13 @@ const Layout = () => {
         <nav className="secciones_nav">
         <ul>
             <li>
-                 <NavLink className="seccion_prueba" to="/home">Home</NavLink>
+                 <NavLink className="seccion_prueba" to="/inicio-pantalla-inicial">INICIO</NavLink>
             </li>           
             <li>
-                <NavLink className="seccion_2" to="/dashboard">Sign In</NavLink>
+                <NavLink className="seccion_2" to="/login-usuario">INICIAR SESION</NavLink>
             </li>
             <li>
-                <NavLink className="seccion_chamacos" to="/register">Sign Up</NavLink>
+                <NavLink className="seccion_chamacos" to="/registro-usuario">REGISTRARSE</NavLink>
             </li>
         </ul>
     </nav>
@@ -45,11 +45,11 @@ const Layout = () => {
     }         
   
    
-   <Outlet />
+  <Outlet />
    
-   <footer className="fondob">© 2024 Independent Software Developers, Inc. all rights reserved</footer>
+   <footer className="fondob">© 2024 Independent Software Developers, Inc. All rights reserved.</footer>
   
-  </div>
+ </div>
   
   )
 }
