@@ -26,46 +26,100 @@ body {
     }  
   
   .seccion_prueba{
-    font-size: 18.5px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;    
     font-weight: bold;
-    padding: 45px;
-    color: #00000044;
+    padding: 7.5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: rgba(255, 255, 255, 0.945);
     text-align: center;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    margin-top: 10px;    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 2px;
     cursor:pointer;
-  }  
-
+    letter-spacing: 0.4px;   
+    text-shadow: 2px 1px 2px rgb(13, 14, 0); 
+    background: linear-gradient(90deg, #144c6e, #144c6e);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+  } 
+  
   .seccion_prueba:hover {
-    font-size: 18.51px; /* Ajusta este valor a tu gusto */
+    font-size: 22px; /* Ajusta este valor a tu gusto */
+    color: rgba(226, 226, 226, 0.925);
+  }
+
+  .nav-icon {
+    margin-left: 5px;
+    padding: 5px 0;        
+  }
+
+  /* acomodamiento de elementos navbar */
+  .seccion_1{
+    width: 200px;
+    position: auto;    
   }
   
   .seccion_2{
-    font-size: 18.5px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bold;
-    margin-top: 55px;
-    color: #00000044;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    padding: 0px;
+    font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;            
+    padding: 7.5px;
+    padding-left: 18px;
+    padding-right: 18px;
+    letter-spacing: 0.4px;
+    background: linear-gradient(90deg, #144c6e, #144c6e);
+    border-radius: 5px;
+    margin-top: 2px;
+    color: rgba(255, 255, 255, 0.945);
+    text-shadow: 5px 2px 4px rgb(13, 14, 0); 
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;    
   }
 
+  .nav-icon2 {
+    margin-left: 7px;
+    padding: 5px 0;    
+  }
+  
   .seccion_2:hover {
-    font-size: 18.51px;
+    font-size: 22px;
+    color: rgba(226, 226, 226, 0.925);
   }
   
   .seccion_chamacos{
-    font-size: 18.5px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
-    margin-top: 10px;
-    color: #00000044;
-    padding: 1px;
+    margin-top: 2px;    
+    padding: 7.5px;
+    letter-spacing: 0.4px;
+    background: linear-gradient(90deg, #144c6e, #144c6e);
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.945);
+    text-shadow: 5px 2px 4px rgb(13, 14, 0);     
+    padding-left: 20px;
+    padding-right: 20px;    
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+  }
+
+  .nav-icon3 {
+    margin-left: 7px;
+    padding: 5px 0;    
   }
 
   .seccion_chamacos:hover {
-    font-size: 18.51px;
+    font-size: 22px;
+    color: rgba(226, 226, 226, 0.925);
   }
   
   .boton1 button {
@@ -133,143 +187,7 @@ body {
       color: #ffffffd8; /* Color del texto */
       font-weight: bold; /* Peso de la fuente en negrita */
       margin-top: 10px; /* Margen superior */
-    }
-    
-    .boton3 button {
-      background-color: #330a0a; /* Color de fondo */
-      color: rgba(255, 255, 255, 0.89);
-      padding: 12px 39px; /* Aumento del padding para hacer el botón más ancho */
-      border: none; /* Sin borde */
-      border-radius: 30px; /* Bordes redondeados */
-      border-color: #330a0a;
-      cursor: pointer; /* Cursor de ratón */
-      font-size: 16px; /* Tamaño de la fuente */
-      font-weight: bold; /* Peso de la fuente */
-      transition: background-color 0.3s; /* Transición suave del color de fondo */
-      margin-top: 10px; /* Margen superior */
-    }
-    
-    .boton3 button:hover {
-      background-color: #110303; /* Cambia el color de fondo al pasar el ratón */
-    }
-    
-    .malo-malin {
-      width: 200px; /* Ancho de la imagen */
-      height: 300px; /* Altura de la imagen */
-      border-radius: 10px; /* Bordes redondeados */
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
-      margin: 20px auto; /* Margen superior e inferior de 20px y centrado horizontalmente */
-      border: 9px solid #02012ed8; /* Borde de color, ajustalo a px */
-    }
-    
-    .texto-malo {
-      font-size: 26px; /* Tamaño de fuente */
-      color: #ffffffe7; /* Color del texto */
-      margin-bottom: 10px; /* Espacio entre el título y la imagen */
-      font-weight: bold; /* Peso de la fuente en negrita */
-    }
-    
-    .Pregunta-malo {
-      font-size: 21px; /* Tamaño de la fuente */
-      color: #ffffffd8; /* Color del texto */
-      font-weight: bold; /* Peso de la fuente en negrita */
-      margin-top: 10px; /* Margen superior */
-    }
-    
-    .boton4 button {
-        background-color: #02012ed8; /* Color de fondo */
-        color: rgba(255, 255, 255, 0.89); /* Color del texto */
-        padding: 12px 47px; /* Aumento del padding para hacer el botón más ancho */
-        border: none; /* Sin borde */
-        border-radius: 30px; /* Bordes redondeados */
-        border-color: #072b0a;
-        cursor: pointer; /* Cursor de ratón */
-        font-size: 16px; /* Tamaño de la fuente */
-        font-weight: bold; /* Peso de la fuente */
-        transition: background-color 0.3s; /* Transición suave del color de fondo */
-        margin-top: 10px; /* Margen superior */
-    }
-    
-    .boton4 button:hover {
-      background-color: #03021ad8; /* Cambia el color de fondo al pasar el ratón */
-    }
-    
-    .boton5 button {
-      background-color: #330a0a; /* Color de fondo */
-      color: rgba(255, 255, 255, 0.89);
-      padding: 12px 39px; /* Aumento del padding para hacer el botón más ancho */
-      border: none; /* Sin borde */
-      border-radius: 30px; /* Bordes redondeados */
-      border-color: #330a0a;
-      cursor: pointer; /* Cursor de ratón */
-      font-size: 16px; /* Tamaño de la fuente */
-      font-weight: bold; /* Peso de la fuente */
-      transition: background-color 0.3s; /* Transición suave del color de fondo */
-      margin-top: 10px; /* Margen superior */
-    }
-    
-    .boton5 button:hover {
-      background-color: #110303; /* Cambia el color de fondo al pasar el ratón */
-    }
-    
-    .Isra-Titulo {
-      font-size: 26px; /* Tamaño de fuente */
-      color: #ffffffe7; /* Color del texto */
-      margin-bottom: 10px; /* Espacio entre el título y la imagen */
-      font-weight: bold; /* Peso de la fuente en negrita */
-    }
-    
-    .israLv {
-      width: 200px; /* Ancho de la imagen */
-      height: 300px; /* Altura de la imagen */
-      border-radius: 10px; /* Bordes redondeados */
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
-      margin: 20px auto; /* Margen superior e inferior de 20px y centrado horizontalmente */
-      border: 9px solid #f56200; /* Borde de color, ajustalo a px */
-    }
-    
-    .boton6 button {
-      background-color: #f56200; /* Color de fondo */
-      color: rgba(255, 255, 255, 0.89);
-      padding: 12px 39px; /* Aumento del padding para hacer el botón más ancho */
-      border: none; /* Sin borde */
-      border-radius: 30px; /* Bordes redondeados */
-      border-color: #f56200;
-      cursor: pointer; /* Cursor de ratón */
-      font-size: 16px; /* Tamaño de la fuente */
-      font-weight: bold; /* Peso de la fuente */
-      transition: background-color 0.3s; /* Transición suave del color de fondo */
-      margin-top: 10px; /* Margen superior */
-    }
-    
-    .boton6 button:hover {
-      background-color: #8d3800; /* Cambia el color de fondo al pasar el ratón */
-    }
-    
-    .boton7 button {
-      background-color: #330a0a; /* Color de fondo */
-      color: rgba(255, 255, 255, 0.89);
-      padding: 12px 33px; /* Aumento del padding para hacer el botón más ancho */
-      border: none; /* Sin borde */
-      border-radius: 30px; /* Bordes redondeados */
-      border-color: #330a0a;
-      cursor: pointer; /* Cursor de ratón */
-      font-size: 16px; /* Tamaño de la fuente */
-      font-weight: bold; /* Peso de la fuente */
-      transition: background-color 0.3s; /* Transición suave del color de fondo */
-      margin-top: 10px; /* Margen superior */
-    }
-    
-    .boton7 button:hover {
-      background-color: #110303; /* Cambia el color de fondo al pasar el ratón */
-    }
-    
-    .Pregunta-Isra {
-      font-size: 21px; /* Tamaño de la fuente */
-      color: #ffffffd8; /* Color del texto */
-      font-weight: bold; /* Peso de la fuente en negrita */
-      margin-top: 10px; /* Margen superior */
-    }
+    }    
     
     .contenedor {
       max-width: 1280px;

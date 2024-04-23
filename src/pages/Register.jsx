@@ -10,7 +10,7 @@ import { faKey } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 
 
-const Register = () => {
+const Register = () => {3
   
   const navigate = useNavigate();
 

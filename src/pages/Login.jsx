@@ -106,6 +106,7 @@ const Login = () => {
         <span className="donthave">
            <span className="donthave-text">¿No tienes una cuenta?</span> <Link to="/registro-usuario" className="donthave-link">¡Registrate!</Link>
         </span>
+        
          
         <button className="btnS">Acceder</button>        
       </form>

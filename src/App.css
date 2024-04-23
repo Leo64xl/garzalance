@@ -28,19 +28,25 @@
   list-style-type: none; /* Elimina los puntos de lista */
   display: flex; /* Utiliza Flexbox para organizar los elementos horizontalmente */
   justify-content: space-around; /* Distribuye el espacio entre los elementos */
-  padding: 0;
-  text-shadow: 0.4px .2px 2px rgba(6, 71, 97, 0.767); 
+  padding: 0px;
+  text-shadow: 0.4px .2px 2px rgba(6, 71, 97, 0.767);   
   letter-spacing: 0.6px;
 }
 
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .secciones_nav {
-  background-color: #b0d9f7; /* Color de fondo */
+  background-color: #AED6F1; /* Color de fondo */
   color: #fdffff; /* Color de texto para los elementos de la barra de navegación */
   padding: 6px 0; /* Espaciado interno superior e inferior */
   text-align: center; /* Centra el texto */ 
   justify-content: center;
-  padding: 13.5px;  
+  padding: 15px;  
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Añade una sombra a la barra de navegación */
+  background: linear-gradient(90deg, #b4cff0ea, #b4cff0);
 }
 
 .secciones_nav nav ul {
@@ -57,8 +63,7 @@
   transition: 500ms; /* Transición para efectos de hover */
 }
 
-.secciones_nav nav li:hover {
-  color: #5a4545; /* Cambia el color del texto al pasar el mouse sobre los elementos */
+.secciones_nav nav li:hover {  
   transform: scale(1.100); /* Escala al pasar el ratón */
 }
 
@@ -69,7 +74,7 @@
   20% { color: #E0E0E0; }
   30% { color: #D0D0D0; }
   40% { color: #C0C0C0; }
-  50% { color: #B0B0B0; }
+  50% { color: #c4c1c1; }
   60% { color: #C0C0C0; }
   70% { color: #D0D0D0; }
   80% { color: #E0E0E0; }
@@ -78,33 +83,46 @@
 }
 
 .title {
-  animation: colorChange 10s infinite;
+  animation: colorChange 1.5s infinite;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: bold;
-  font-size: 37px;
+  font-size: 35px;
   text-align: center;
   justify-content: center;
-  padding: 21px;
+  padding: 20px 10px;
   color: rgba(255, 255, 255, 0.945);
   display: flex;
   align-items: center;
   height: 100%;
   text-shadow: 9px 3px 6px rgb(13, 14, 0);  
   letter-spacing: 1.1px;
-  transition: color 0.5s ease-in-out;
-  background: linear-gradient(90deg, #1A5276, #0b274d);
+  transition: color 0.2s ease-in-out;
+  background: linear-gradient(90deg, #1A5276, #143e58);
+  width: 100%;
 }
 
 .fondo-title {
-  
   background-color: transparent;
+  display: flex;
+  flex-direction: row; /* Cambia esto de row-reverse a row */
+  justify-content: center;
+  align-items: center;
 }
 
+.logo-container {
+  padding: 0px;  
+}
+
+.logo-image {
+  margin-left: 10px;
+  width: 50px;
+  height: 50px;
+  align-self: center;  
+}
 .fondob {  
   position: absolute;/* Fija el footer al final de la página */
   width: 100%; /* Asegura que el footer tenga el ancho completo de la página */
-  margin: 0; /* Elimina cualquier margen */
-  background-color: #1A5276; /* Color de fondo */  
+  margin: 0; /* Elimina cualquier margen */  
   font-size: 28px;
   display: flex;
   color: rgba(255, 255, 255, 0.945);
@@ -117,6 +135,7 @@
   text-shadow: 12px 6px 9px rgb(13, 14, 0);  
   letter-spacing: 1px;
   transition: color 0.5s ease-in-out;
-  background: linear-gradient(90deg, #1A5276, #0b274d);
+  background: linear-gradient(90deg, #143e58, #143e58);
 }
+
 
