@@ -9,6 +9,7 @@ import PrivateRoute from './router/PrivateRoute';
 import Login from './pages/Login';
 import Inicio from './pages/Inicio';
 import TermsAndCond from './pages/TermsAndCond';
+import producto from './pages/producto';
 import { Link } from 'react-router-dom';
 
 

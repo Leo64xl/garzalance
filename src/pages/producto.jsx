@@ -1,9 +1,10 @@
-import LogoSnakes from "../assets/logo.svg";
+import React, { useState } from 'react';
+import logo from "../assets/images/logo22.png/";
 const Producto = () => {
   return (
     <>
         <header>
-            <img src={LogoSnakes} alt=""/>
+            <img src={logo} alt=""/>
         </header>
     </>
   )
