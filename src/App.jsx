@@ -12,17 +12,15 @@ import TermsAndCond from './pages/TermsAndCond';
 import { Link } from 'react-router-dom';
 
 
-
-
 function App () {
   return (
 
     <div>
       <div className="fondo-title">
-       <Link to="/inicio-pantalla-inicial" className="title">Garzalance
+       <Link to="/inicio-pantalla-inicial" className="title">
          <div className="logo-container">
             <img className="logo-image" src="/img/logo22.png" />
-         </div>
+         </div>Garzalance
        </Link>      
       </div> 
 

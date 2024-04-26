@@ -6,27 +6,20 @@
   }
 
 .checkbox-container {
+  align-items: center;  
   display: flex;
-  align-items: center;
-  padding: 9.5px;
+  padding: 5px;
+  margin-left: 3px;
 }
 
 .checkC {
   margin-right: 10px;
 }
 
-@keyframes colorChange {
-  0% { color: #FFFFFF; }
-  20% { color: #F0F0F0; }
-  40% { color: #E0E0E0; }  
-  60% { color: #C0C0C0; }  
-  80% { color: #E0E0E0; }  
-  100% { color: #FFFFFF; }
-}
 
 .btnR {
     background-color: #175279; /* Color de fondo */
-    color: rgba(255, 255, 255, 0.89); /* Color del texto */
+    color: rgba(255, 255, 255, 0.945); /* Color del texto */
     padding: 10px 20px; /* Espaciado interno */
     border: none; /* Sin borde */    
     cursor: pointer; /* Cursor de ratón */
@@ -37,16 +30,21 @@
     margin-top: 3%;
     margin-block-end: 5px;
     text-shadow: 6px 2px 7px rgb(13, 14, 0); 
-    letter-spacing: 0.2px;
-    background: linear-gradient(90deg, #1A5276, #103972);
-    transition: color 0.5s ease-in-out;
-    animation: colorChange 7s infinite;
+    letter-spacing: 0.1px;
+    background: linear-gradient(90deg, #1A5276, #103972);    
+    border-radius: 5px;
   }
   
 .btnR:hover {
     background-color: #154566; /* Color de fondo al pasar el ratón */
     transform: scale(1.015); /* Escala al pasar el ratón */
+    border-radius: 5px;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.3); /* Sombra más grande al pasar el ratón */
+}
+
+.botonREG {
+  background: linear-gradient(90deg, #1A5276, #103972);
+  border-radius: 5px;
 }
 
 .input-icon {
@@ -76,6 +74,14 @@
   /* Estilos para "terminos y condiciones" */  
   color: #1568a0;   
   text-decoration: underline; 
+}
+
+.error-message {
+  color: rgb(255, 3, 45);
+  font-size: 15px;
+  font-weight: bold;  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 5px;  
 }
 
 
