@@ -44,7 +44,7 @@
   padding: 6px 0; /* Espaciado interno superior e inferior */
   text-align: center; /* Centra el texto */ 
   justify-content: center;
-  padding: 15px;  
+  padding: 14px;  
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Añade una sombra a la barra de navegación */
   background: linear-gradient(90deg, #b4cff0ea, #b4cff0);
 }
@@ -70,20 +70,16 @@
 
 @keyframes colorChange {
   0% { color: #FFFFFF; }
-  10% { color: #F0F0F0; }
-  20% { color: #E0E0E0; }
-  30% { color: #D0D0D0; }
-  40% { color: #C0C0C0; }
-  50% { color: #c4c1c1; }
-  60% { color: #C0C0C0; }
-  70% { color: #D0D0D0; }
-  80% { color: #E0E0E0; }
-  90% { color: #F0F0F0; }
+  16% { color: #F0F0F0; }
+  33% { color: #FFFFFF; }
+  50% { color: #F0F0F0; }   
+  66% { color: #FFFFFF; }
+  83% { color: #F0F0F0; }
   100% { color: #FFFFFF; }
 }
 
 .title {
-  animation: colorChange 1.5s infinite;
+  animation: colorChange 10s infinite;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: bold;
   font-size: 35px;
@@ -99,6 +95,7 @@
   transition: color 0.2s ease-in-out;
   background: linear-gradient(90deg, #1A5276, #143e58);
   width: 100%;
+  margin-right: 10px;
 }
 
 .fondo-title {
@@ -107,6 +104,7 @@
   flex-direction: row; /* Cambia esto de row-reverse a row */
   justify-content: center;
   align-items: center;
+  background: linear-gradient(90deg, #1A5276, #143e58);
 }
 
 .logo-container {
@@ -114,9 +112,9 @@
 }
 
 .logo-image {
-  margin-left: 10px;
-  width: 50px;
-  height: 50px;
+  margin-left: 0px;
+  width: 45px;
+  height: 45px;
   align-self: center;  
 }
 .fondob {  

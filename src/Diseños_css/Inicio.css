@@ -28,13 +28,13 @@ body {
   .seccion_prueba{
     font-size: 22px;    
     font-weight: bold;
-    padding: 7.5px;
+    padding: 6.7px;
     padding-left: 0px;
     padding-right: 0px;
     color: rgba(255, 255, 255, 0.945);
     text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-top: 2px;
+    margin-top: 1px;
     cursor:pointer;
     letter-spacing: 0.4px;   
     text-shadow: 2px 1px 2px rgb(13, 14, 0); 
@@ -67,13 +67,13 @@ body {
     font-size: 22px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;            
-    padding: 7.5px;
+    padding: 6.7px;
     padding-left: 18px;
     padding-right: 18px;
     letter-spacing: 0.4px;
     background: linear-gradient(90deg, #144c6e, #144c6e);
     border-radius: 5px;
-    margin-top: 2px;
+    margin-top: 1px;
     color: rgba(255, 255, 255, 0.945);
     text-shadow: 5px 2px 4px rgb(13, 14, 0); 
     display: flex;
@@ -96,8 +96,8 @@ body {
     font-size: 22px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
-    margin-top: 2px;    
-    padding: 7.5px;
+    margin-top: 1px;    
+    padding: 6.7px;
     letter-spacing: 0.4px;
     background: linear-gradient(90deg, #144c6e, #144c6e);
     border-radius: 5px;
