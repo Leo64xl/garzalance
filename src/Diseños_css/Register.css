@@ -1,0 +1,88 @@
+.register {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+  }
+
+.checkbox-container {
+  align-items: center;  
+  display: flex;
+  padding: 5px;
+  margin-left: 3px;
+}
+
+.checkC {
+  margin-right: 10px;
+}
+
+
+.btnR {
+    background-color: #175279; /* Color de fondo */
+    color: rgba(255, 255, 255, 0.945); /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */    
+    cursor: pointer; /* Cursor de ratón */
+    font-size: 18px; /* Tamaño de la fuente */
+    font-weight: bold; /* Peso de la fuente */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Transición suave de color de fondo y sombra */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* Sombra alrededor del botón */
+    margin-top: 3%;
+    margin-block-end: 5px;
+    text-shadow: 6px 2px 7px rgb(13, 14, 0); 
+    letter-spacing: 0.1px;
+    background: linear-gradient(90deg, #1A5276, #103972);    
+    border-radius: 5px;
+  }
+  
+.btnR:hover {
+    background-color: #154566; /* Color de fondo al pasar el ratón */
+    transform: scale(1.015); /* Escala al pasar el ratón */
+    border-radius: 5px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.3); /* Sombra más grande al pasar el ratón */
+}
+
+.botonREG {
+  background: linear-gradient(90deg, #1A5276, #103972);
+  border-radius: 5px;
+}
+
+.input-icon {
+  position: relative;  
+}
+
+.input-icon-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.terms, .terms a {
+  display: inline;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16.1px;
+  flex-direction: column;
+}
+
+.terms-text {
+  /* Estilos para "Acepto los" */  
+  color: #333;
+}
+
+.terms-link {
+  /* Estilos para "terminos y condiciones" */  
+  color: #1568a0;   
+  text-decoration: underline; 
+}
+
+.error-message {
+  color: rgb(255, 3, 45);
+  font-size: 15px;
+  font-weight: bold;  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 5px;  
+}
+
+
+  

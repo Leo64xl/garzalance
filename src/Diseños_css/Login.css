@@ -1,0 +1,165 @@
+
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75.5vh;
+    background-image: url('../img/fondo10.jpg'); /* Ajusta la ruta aquí */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+
+}
+
+form {
+    background-color: #fafafa;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 10px #51758ade;
+    width: 100%;
+    max-width: 396px;
+}  
+
+h1 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+ .mensajeB {
+  font-size: 16px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  padding: 5px;
+  width: 100%;
+  color: #000000d7;
+  margin-block-end: 11px;
+ }
+
+  .iniciarS{
+    font-size: 20.3px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 3px;
+  }
+
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16.1px;
+    
+  }
+  
+  .input-group label {
+    margin-bottom: 5px;
+    
+  }  
+
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 0px;
+    border: none; /* Sin bordes */
+    border-bottom: 1px solid #0000003a; /* Línea inferior */
+    box-sizing: border-box;
+    background-color: transparent;
+  }  
+
+  .input-group input:focus {
+    outline: none; /* Sin contorno al enfocar */
+    border-bottom: 1px solid #c5bdbd; 
+  }
+
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+  } 
+    
+
+.btnS {
+  background: linear-gradient(90deg, #1A5276, #103972);
+  color: rgba(255, 255, 255, 0.945); /* Color del texto */
+  padding: 10px 20px; /* Espaciado interno */
+  border: none; /* Sin borde */    
+  cursor: pointer; /* Cursor de ratón */
+  font-size: 18px; /* Tamaño de la fuente */
+  letter-spacing: 0.1px;
+  font-weight: bold; /* Peso de la fuente */
+  transition: background-color 0.3s, box-shadow 0.3s; /* Transición suave de color de fondo y sombra */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* Sombra alrededor del botón */
+  margin-top: 15px;
+  margin-block-end: 5px;
+  text-shadow: 6px 2px 7px rgb(13, 14, 0);    
+  border-radius: 5px;
+}
+
+.btnS:hover {
+  background-color: #154566; /* Color de fondo al pasar el ratón */
+  transform: scale(1.015); /* Escala al pasar el ratón */
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3); /* Sombra más grande al pasar el ratón */
+  border-radius: 5px;
+}
+
+.botonAc {
+  background: linear-gradient(90deg, #1A5276, #103972);
+  border-radius: 5px;
+}
+
+.input-icon {
+  position: relative;
+  color:#0000004b;
+}
+
+.input-icon-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.donthave, .have a {  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16.1px;
+  flex-direction: column; 
+  padding:  0px 0;
+  position: relative;
+  margin-top: 10px;  
+  margin-block-end: 1px;
+}
+
+.donthave-text {
+  color:#333;
+}
+
+.donthave-link {
+  color: #1568a0;   
+  text-decoration: underline;  
+}
+
+.error-messagee {
+  color: rgb(255, 3, 45);
+  font-size: 15px;
+  font-weight: bold;  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  padding:  5px 5px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;  
+  top: 10%;  
+}
+
+.notienes{
+  padding: 0px;
+  flex-direction: column;
+  display: flex;
+  margin-top: 10px;
+  margin-block-end: 5px;
+}

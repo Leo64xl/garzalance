@@ -1,0 +1,25 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .seccion-container {
+    background-color: #FAFAFA; /* Color de fondo para la sección de Home */
+    padding: 270px; /* Espaciado interno */
+  }  
+
+  .seccion-container h1 {
+    color: #000000d0; /* Color de texto para los títulos */
+    text-align: center;
+  }
+
+  .home-container p {
+    color: #000000d0; /* Color de texto para los párrafos */
+    text-align: center;
+  }    
+
+.texto1 {
+  color: #000000d0;
+  font-size: 30px;
+  font-weight: bold;
+}

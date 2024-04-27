@@ -1,0 +1,208 @@
+#root {
+  max-width: 100%;
+  max-height: 300px;
+  margin: 0;
+  padding: 0rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+#elemento-a-mover {
+  text-align: auto; /* O cualquier otra alineación que desees */
+}
+
+.card {
+  padding: 2em; /* ayuda a poner espacio entre letras segun sea asignadas */
+}
+
+.read-the-docs {
+  color: #FAFAFA;
+}
+
+.secciones_nav ul {
+  list-style-type: none; /* Elimina los puntos de lista */
+  display: flex; /* Utiliza Flexbox para organizar los elementos horizontalmente */
+  justify-content: space-around; /* Distribuye el espacio entre los elementos */
+  padding: 0px;
+  text-shadow: 0.4px .2px 2px rgba(6, 71, 97, 0.767);   
+  letter-spacing: 0.6px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.secciones_nav {
+  background-color: #AED6F1; /* Color de fondo */
+  color: #fdffff; /* Color de texto para los elementos de la barra de navegación */
+  padding: 6px 0; /* Espaciado interno superior e inferior */
+  text-align: center; /* Centra el texto */ 
+  justify-content: center;
+  padding: 14px;  
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Añade una sombra a la barra de navegación */
+  background: linear-gradient(90deg, #b4cff0ea, #b4cff0);
+}
+
+.secciones_nav nav ul {
+  list-style-type: none; /* Elimina los puntos de lista */
+  display: flex; /* Utiliza Flexbox para organizar los elementos horizontalmente */
+  justify-content: space-around; /* Distribuye el espacio entre los elementos */
+  padding: 1px;
+  align-items: center;
+  width: 100%;
+}
+
+.secciones_nav nav li {
+  padding: 1.1%; /* Ajusta el espacio interior de cada elemento de lista */
+  transition: 500ms; /* Transición para efectos de hover */
+}
+
+.secciones_nav nav li:hover {  
+  transform: scale(1.100); /* Escala al pasar el ratón */
+}
+
+
+@keyframes colorChange {
+  0% { color: #FFFFFF; }
+  16% { color: #F0F0F0; }
+  33% { color: #FFFFFF; }
+  50% { color: #F0F0F0; }   
+  66% { color: #FFFFFF; }
+  83% { color: #F0F0F0; }
+  100% { color: #FFFFFF; }
+}
+
+.title {
+  animation: colorChange 10s infinite;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+  justify-content: center;
+  padding: 20px 10px;
+  color: rgba(255, 255, 255, 0.945);
+  display: flex;
+  align-items: center;
+  height: 100%;
+  text-shadow: 9px 3px 6px rgb(13, 14, 0);  
+  letter-spacing: 1.1px;
+  transition: color 0.2s ease-in-out;
+  background: linear-gradient(90deg, #1A5276, #143e58);
+  width: 100%;
+  margin-right: 10px;
+}
+
+.fondo-title {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row; /* Cambia esto de row-reverse a row */
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #1A5276, #143e58);
+}
+
+.logo-container {
+  padding: 0px;  
+}
+
+.logo-image {
+  margin-left: 0px;
+  width: 45px;
+  height: 45px;
+  align-self: center;  
+}
+
+.fondob {  
+  position: absolute;/* Fija el footer al final de la página */
+  width: 100%; /* Asegura que el footer tenga el ancho completo de la página */
+  margin: 0; /* Elimina cualquier margen */  
+  font-size: 28px;
+  display: flex;
+  color: rgba(255, 255, 255, 0.945);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold; 
+  padding: 25px;
+  justify-content: center;
+  font-size: 23px;
+  text-align: center;
+  text-shadow: 12px 6px 9px rgb(13, 14, 0);  
+  letter-spacing: 1px;
+  transition: color 0.5s ease-in-out;
+  background: linear-gradient(90deg, #143e58, #143e58);
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #AED6F1;
+  color: #fdffff; 
+  padding: 12.5px;
+}
+
+.welcomeb {
+  font-size: 22px;  
+  color: #fafafaf3;
+  font-weight: bold;  
+  text-shadow: 3px 2px 3px rgb(0, 0, 0);
+  letter-spacing: 0.1px;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+.username {
+  font-weight: bold;
+  color: #143e58;
+  margin-right: 315px;
+  letter-spacing: 0.1px;
+  font-size: 20px;
+}
+
+.btn-logout {  
+  color: rgba(255, 255, 255, 0.897);   
+  font-size: 20px; /* Aumenta este valor para hacer el texto más grande */
+  font-weight: bold; 
+  transition: background-color 0.3s, box-shadow 0.3s; /* Transición suave de color de fondo y sombra */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* Sombra alrededor del botón */
+  padding: 10px 0; /* Aumenta estos valores para hacer el botón más grande */
+  text-shadow: 6px 2px 7px rgb(13, 14, 0); 
+  letter-spacing: 0.1px;
+  background: linear-gradient(90deg, #144c6e, #144c6e);
+  border-radius: 5px;    
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-left: 460px;
+}
+
+.btn-logout:hover {
+  background-color: #154566; /* Color de fondo al pasar el ratón */
+  transform: scale(1.015); /* Escala al pasar el ratón */
+  border-radius: 5px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.185); /* Sombra más grande al pasar el ratón */
+  color: rgba(226, 226, 226, 0.925);    
+}
+
+.nav-icon4 {
+  margin-left: 7px;
+  padding: 0px 0;
+  margin-bottom: 7px 0;
+}
+
+.nav-icon5 {
+  margin-left: 0px;
+  padding: 0px 0;
+  margin-bottom: 7px 0;
+  font-size: 35px;
+  color: #143e58;
+  text-align: center;
+}
