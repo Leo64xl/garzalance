@@ -15,7 +15,32 @@ import { faComments } from '@fortawesome/free-solid-svg-icons';
 const MenuPrincipal = () => {
   
   return (
-      <>   
+    <div>
+      <div class="max-w-sm rounded-lg overflow-hidden shadow-lg bg-white">
+  <img class="w-full" src="https://placehold.co/290x200" alt="Pixel Art" />
+  <div class="px-6 py-4">
+    <div class="flex items-center">
+      <img class="w-10 h-10 rounded-full mr-4" src="https://placehold.co/40" alt="Profile Avatar" />
+      <div class="text-sm">
+        <p class="text-zinc-900 leading-none">Diego Rago</p>
+        <p class="text-zinc-600">Level 2 ★★★☆☆</p>
+      </div>
+    </div>
+    <div class="mt-2">
+      <p class="text-zinc-700 text-base">Haré pixel art profesional para tus videojuegos.</p>
+    </div>
+  </div>
+  <div class="px-6 pt-4 pb-2">
+    <span
+      class="inline-block bg-zinc-200 rounded-full px-3 py-1 text-sm font-semibold text-zinc-700 mr-2 mb-2"
+      >★ 4.9 (931)</span
+    >
+    <span
+      class="inline-block bg-zinc-200 rounded-full px-3 py-1 text-sm font-semibold text-zinc-700 mb-2"
+      >A partir de USD 5</span
+    >
+  </div>
+</div>
   
 <nav class="bg-white border-gray-200 dark:bg-gray-900">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -75,11 +100,12 @@ const MenuPrincipal = () => {
       </li>
     </ul>
   </div>
-  </div>  
+  </div>
 </nav>
+</div>
 
-   </>
-
+  
+     
   )
 }
 
