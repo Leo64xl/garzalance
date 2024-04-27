@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import logo from "../assets/images/logo22.png/";
+import MainHeader from '../components/Header/NavBar/Mainheader';
+import MainProducts from '../components/product/MainProducts';
 const Producto = () => {
   return (
     <>
-        <header>
-            <img src={logo} alt=""/>
-        </header>
+        <MainHeader />
+       <MainProducts />
     </>
   )
 }
