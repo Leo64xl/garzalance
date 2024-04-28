@@ -1,13 +1,11 @@
 import React, { useState } from 'react';
-import MainHeader from '../components/Header/NavBar/Mainheader';
-import MainProducts from '../components/product/MainProducts';
-const Producto = () => {
+
+const producto = () => {
   return (
     <>
-        <MainHeader />
-       <MainProducts />
+       
     </>
   )
 }
 
-export default Producto;
+export default producto;
