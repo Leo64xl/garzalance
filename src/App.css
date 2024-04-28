@@ -152,16 +152,20 @@
   font-weight: bold;  
   text-shadow: 3px 2px 3px rgb(0, 0, 0);
   letter-spacing: 0.1px;
-  margin-left: 15px;
-  margin-right: 5px;
+  margin-left: 100px;
+  margin-right: 0px;
 }
 
 .username {
   font-weight: bold;
   color: #143e58;
-  margin-right: 315px;
+  margin-right: 100px;
   letter-spacing: 0.1px;
   font-size: 20px;
+  position: absolute;
+  top: 18.5%;
+  left: 25.7%;
+  transform: translate(-50%, -50%);
 }
 
 .btn-logout {  
@@ -180,8 +184,10 @@
   display: inline-block;
   cursor: pointer;
   border-radius: 5px;
-  margin-right: 5px;
-  margin-left: 460px;
+  margin-right: 90px;
+  margin-left: 160px;
+  width: 240px; 
+  height: 50px; 
 }
 
 .btn-logout:hover {
@@ -205,4 +211,9 @@
   font-size: 35px;
   color: #143e58;
   text-align: center;
+  position: absolute;
+  top: 18.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
+

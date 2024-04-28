@@ -15,7 +15,10 @@ import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
 
+
+
 function App () {
+  
   return (
     
     <div>
@@ -41,14 +44,7 @@ function App () {
     <Route path="/seccion_1" element={<Seccion_1 />} />    
     <Route path="/terminos-y-condiciones" element={<TermsAndCond />} />          
     <Route path="/login-usuario" element={<Login />} />
-    <Route 
-      path="/MenuPrincipal" 
-      element={
-        <PrivateRoute>
-          <MenuPrincipal />
-        </PrivateRoute>
-      } 
-    />     
+    <Route path="/MenuPrincipal" element={<MenuPrincipal />} />
     <Route path="*" element={<Default />} />           
   </Route>
   <Route path="/Mensajeria" element={<Mensajeria />} />

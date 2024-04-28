@@ -6,6 +6,7 @@ import { faUserPlus } from '@fortawesome/free-solid-svg-icons/faUserPlus';
 import { faArrowRightToBracket } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import { faComments } from '@fortawesome/free-solid-svg-icons/faComments';  
+import UserContent from './UserContent';
 
 
 const Layout = () => {
@@ -26,17 +27,9 @@ const Layout = () => {
 
     {
       state?.logged ? (
-        <div className="user">
-          <p className="welcomeb">¡Bienvenido!</p>          
-            <span className="username"> {state?.email} </span>  
-             <NavLink to="/Mensajeria">
-                <FontAwesomeIcon className="nav-icon5" icon={faComments} />
-               </NavLink>        
-             <button className="btn-logout" onClick={onLogout}>
-                Cerrar sesión
-               <FontAwesomeIcon className="nav-icon4" icon={faRightFromBracket} />
-             </button>         
-        </div>
+        
+             <UserContent state={state} onLogout={onLogout} />       
+             
 
       ) : (
        

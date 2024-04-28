@@ -1,14 +1,29 @@
-import React from 'react'
+import { useNavigate, useLocation } from 'react-router-dom';
+import UserContent from './UserContent';
+import { NavLink } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRotateLeft } from '@fortawesome/free-solid-svg-icons/faArrowRotateLeft';
 import '../Diseños_css/Mensajeria.css';
-import { Outlet } from 'react-router-dom';
 
 const Mensajeria = () => {
+  
+  const navigate = useNavigate()
+  const location = useLocation()
+  const { state } = location
+
+  const onLogout = () => {
+    navigate('/login-usuario', {
+      replace:true,
+    })
+  }
+
   return (
     <div>
-    <h1>Interfaz de mensajería</h1>
-    {/* Aquí puedes agregar cualquier componente que quieras incluir en todas las páginas de mensajería */}
-    <Outlet />
-  </div>
+      <UserContent state={state} onLogout={onLogout} />        
+      <p>hola devs</p>
+      
+      
+    </div>
   );
 }
 
