@@ -142,6 +142,7 @@ const Register = () => {
               placeholder={isPasswordEmpty ? '     Crea una contraseña segura'  :  ''} 
               className="appearance-none border-none w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             />
+            <!-- Agrega el sasasasa de la llave -->
             {isPasswordEmpty && <FontAwesomeIcon icon={ faKey } className='input-icon-icon' />}
           </div>
         </div>
