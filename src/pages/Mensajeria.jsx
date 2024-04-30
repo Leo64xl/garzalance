@@ -8,6 +8,9 @@ import '../Diseños_css/Mensajeria.css';
 import { useState } from 'react';
 import io from 'socket.io-client'
 import Chat from "./Chat";
+import { Container, Divider, Card, CardContent, Icon, FormField, Button, Form } from 'semantic-ui-react'
+
+
 
 
 const socket = io.connect("http://localhost:3001")
@@ -34,24 +37,47 @@ const Mensajeria = () => {
   }
 
   return (
+
     <>
+    
       <UserContent state={state} onLogout={onLogout} />        
-      <div className='chat'>
-         <h3>unirme al chat</h3>
-           <input 
-             type='text' 
-             placeholder='Leo...' 
-             onChange={e => setUsername(e.target.value)} />
-            
-            <input 
-              type='text'
-              placeholder='ID de la sala:'
-              onChange={e => setRoom(e.target.value)} />
-
-          <button onClick={joinRoom}>Unirme</button>
-          <Chat socket={socket} username={username} room={room} />  
-
-      </div>
+      
+     <Container>
+      <Card fluid>
+        <CardContent header='Unirme al chat' />
+    <CardContent>
+      <Form>
+           <FormField>
+              <label>Nombre:</label>
+              <input 
+                type='text' 
+                placeholder='Nombre de usuario' 
+                onChange={e => setUsername(e.target.value)}  
+              />
+           </FormField>
+        <FormField>
+              <label>Sala:</label>
+              <input 
+                type='text'
+                placeholder='ID de la sala:'
+               onChange={e => setRoom(e.target.value)} 
+              />
+        </FormField>
+           <button 
+               className='btnJoin'
+               onClick={joinRoom}
+               type='submit'>
+                  Unirme
+            </button>
+       </Form>
+    </CardContent>
+        
+        <CardContent extra>
+         <Icon name='user' />4 Friends
+       </CardContent>
+     </Card>
+    <Chat socket={socket} username={username} room={room} />  
+  </Container>
       
       
     </>

@@ -63,7 +63,9 @@ const Register = () => {
     };
   return (
     <div className="wrapper">
-      <form onSubmit={handleRegister}>
+      <form className='form2'
+            onSubmit={handleRegister}>
+        
         <h1 className='register'>¡Regístrate!</h1>        
 
         <div className='input-group'>
@@ -99,7 +101,7 @@ const Register = () => {
               onBlur={handleCarreraBlur}
               required
               autoComplete='off'
-              placeholder={isCarreraEmpty ? '     Nombre de tu carrera'  :  ''}
+              placeholder={isCarreraEmpty ? '      Nombre de tu carrera'  :  ''}
               className="appearance-none border-none w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             />
             {isCarreraEmpty && <FontAwesomeIcon icon={ faGraduationCap } className="input-icon-icon" />}

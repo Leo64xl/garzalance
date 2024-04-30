@@ -51,7 +51,9 @@ const Login = () => {
 
   return (
     <div className="wrapper">
-      <form onSubmit={handleLogin}>
+      <form  className="form2" 
+             onSubmit={handleLogin}>
+        
         <h1 className="iniciarS">¡Bienvenido!</h1>       
 
         <div className='input-group'>

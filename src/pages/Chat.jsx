@@ -2,6 +2,8 @@
 import React from 'react'
 import '../Diseños_css/Chat.css';
 import { useState, useEffect } from 'react';
+import { Container, Divider, Card, CardContent, Icon, FormField, Button, Form, Input } from 'semantic-ui-react'
+
 
 const Chat = ({socket, username, room}) => {
 
@@ -28,21 +30,31 @@ const Chat = ({socket, username, room}) => {
     }, [socket])
 
   return (
-    <div>
-       
-       <section className='chat-header'>
-           <p>chat en vivo</p>
-       </section>       
-       <section className="chat-messages"></section>
-       <section  className='chat-footer'>
-         <input type='text' placeholder='Mensaje...'
-            onChange={e => setCurrentMessage(e.target.value)}
-         />
-          <button onClick={sendMessage}>Enviar &#9658;</button>
-
-         
-       </section>
-    </div>
+    
+    <Container>
+      <Card fluid>
+       <CardContent header='Chat en vivo' />
+       <CardContent >Mensajes</CardContent>
+       <CardContent extra>
+         <Form>
+             <FormField>
+               <div class="ui action input">
+                <Input
+                    type='text' 
+                    placeholder='Mensaje...'
+                    onChange={e => setCurrentMessage(e.target.value)}
+                />
+                 <button 
+                   className="btnEnv"
+                   onClick={sendMessage}>Enviar &#9658;
+                 </button>
+                </div>
+             </FormField>
+          </Form>
+         <Icon name='user' />4 Friends
+       </CardContent>
+     </Card>    
+    </Container>
   )
 }
 
