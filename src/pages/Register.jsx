@@ -142,7 +142,6 @@ const Register = () => {
               placeholder={isPasswordEmpty ? '     Crea una contraseña segura'  :  ''} 
               className="appearance-none border-none w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             />
-            <!-- Agrega el sasasasa de la llave -->
             {isPasswordEmpty && <FontAwesomeIcon icon={ faKey } className='input-icon-icon' />}
           </div>
         </div>
@@ -159,7 +158,7 @@ const Register = () => {
           </span>
         </div>
 
-        {error && <div className="error-message">{error}</div>} {/* Muestra el mensaje de error si existe */}
+        {error && <div className="error-message">{error}</div>} 
        
        <div className='botonREG'>
         <button type="submit" className="btnR">Registrarse</button>
