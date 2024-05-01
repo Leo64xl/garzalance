@@ -1,0 +1,31 @@
+
+.ui-button {
+    background-color: #2978ad; 
+    border: none;
+    color: white;
+    padding: 5px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 10px px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 0.9px;
+    width: 55px; /* Define el ancho del botón */
+    height: 50px; /* Define la altura del botón */
+}
+  
+.ui-button:hover {
+    background-color: rgb(40, 103, 145);
+}
+
+.emoji-picker-container {
+    bottom: 10px; /* Ajusta esto según tus necesidades */
+    right: 0;
+    z-index: 1;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }

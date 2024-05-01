@@ -7,7 +7,7 @@ import { faArrowRotateLeft } from '@fortawesome/free-solid-svg-icons/faArrowRota
 import '../Diseños_css/Mensajeria.css';
 import { useState } from 'react';
 import io from 'socket.io-client'
-import Chat from "./Chat";
+import Chat from './Chat';
 import { Container, Divider, Card, CardContent, Icon, FormField, Button, Form } from 'semantic-ui-react'
 
 
@@ -29,22 +29,26 @@ const Mensajeria = () => {
 
   const [username, setUsername] = useState("")
   const [room, setRoom] = useState("")
+  const [showChat, setShowChat] = useState(false)
+
 
   const joinRoom = () => {
     if(username !== "" && room !== ""){
-      socket.emit("join_room", room)
+      socket.emit("join_room", room);
+      setShowChat(true);
     }
   }
 
   return (
 
-    <>
+    <div>
     
       <UserContent state={state} onLogout={onLogout} />        
       
      <Container>
+    {!showChat? (
       <Card fluid>
-        <CardContent header='Unirme al chat' />
+        <CardContent header='¡Comienza un chat!' />
     <CardContent>
       <Form>
            <FormField>
@@ -73,14 +77,16 @@ const Mensajeria = () => {
     </CardContent>
         
         <CardContent extra>
-         <Icon name='user' />4 Friends
+        <Icon name="discussions" />Unirme a chat
        </CardContent>
      </Card>
+     ) : (
     <Chat socket={socket} username={username} room={room} />  
+    )}
   </Container>
       
       
-    </>
+  </div>
   );
 }
 
