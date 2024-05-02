@@ -3,12 +3,13 @@ import { useNavigate, useLocation } from 'react-router-dom';
 import UserContent from './UserContent';
 import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRotateLeft } from '@fortawesome/free-solid-svg-icons/faArrowRotateLeft';
 import '../Diseños_css/Mensajeria.css';
 import { useState } from 'react';
 import io from 'socket.io-client'
 import Chat from './Chat';
 import { Container, Divider, Card, CardContent, Icon, FormField, Button, Form } from 'semantic-ui-react'
+import { faRightToBracket } from '@fortawesome/free-solid-svg-icons';
+
 
 
 
@@ -41,7 +42,8 @@ const Mensajeria = () => {
 
   return (
 
-    <div>
+    
+     <div>
     
       <UserContent state={state} onLogout={onLogout} />        
       
@@ -67,26 +69,27 @@ const Mensajeria = () => {
                onChange={e => setRoom(e.target.value)} 
               />
         </FormField>
-           <button 
+           <Button 
                className='btnJoin'
                onClick={joinRoom}
                type='submit'>
-                  Unirme
-            </button>
+                  Unirme <FontAwesomeIcon icon={faRightToBracket} />
+            </Button>
        </Form>
     </CardContent>
         
         <CardContent extra>
-        <Icon name="discussions" />Unirme a chat
+        <Icon name="discussions" />Unirme a un chat...
        </CardContent>
      </Card>
      ) : (
     <Chat socket={socket} username={username} room={room} />  
     )}
   </Container>
-      
-      
+   
   </div>
+      
+  
   );
 }
 

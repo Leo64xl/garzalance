@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 75.5vh;
+    height: 80vh;
     background-image: url('../img/fondo10.jpg'); /* Ajusta la ruta aquí */
     background-repeat: no-repeat;
     background-size: 100% 100%;

@@ -59,7 +59,7 @@ const Layout = () => {
    
    <footer>
     <Link to="/terminos-y-condiciones" 
-       className="fondob">© 2024 Independent Software Developers, Inc. All rights reserved.
+       className="foterr">© 2024 Independent Software Developers Inc. Todos los derechos reservados.
     </Link>
    </footer>
   

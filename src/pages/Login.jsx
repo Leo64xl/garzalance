@@ -103,7 +103,6 @@ const Login = () => {
         </div>
 
         <div className='mensajeal'>
-         {/* Mostrar mensaje de error si existe */}
          {errorMessage && <div className="error-messagee">{errorMessage}</div>}
         </div>
 
